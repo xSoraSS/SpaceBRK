@@ -3,8 +3,6 @@ package es.angel.spacebreakers;
 import com.badlogic.gdx.ApplicationAdapter;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.GL20;
-import com.badlogic.gdx.graphics.Texture;
-import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 
 public class SpaceBRK extends ApplicationAdapter {
@@ -28,6 +26,7 @@ public class SpaceBRK extends ApplicationAdapter {
 
 		shipPlayer.printarNave();
 		alien1.printarAlien();
+		shipPlayer.moveNave();
 	}
 
 	@Override
